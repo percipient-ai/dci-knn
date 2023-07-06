@@ -43,7 +43,7 @@ def setup_dci(dist):
 
     config_dict = build_ext(Configuration('dciknn', parent_package=None, top_path=None), dist)
     
-    setup(  version="0.1.0",
+    setup(  version="0.1.1",
             description="Dynamic Continuous Indexing reference implementation.",
             author="Ke Li",
             author_email="ke.li@eecs.berkeley.edu",
